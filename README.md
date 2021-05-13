@@ -1,0 +1,2 @@
+# panacea-opentestnet
+Panacea OpenTestnet
