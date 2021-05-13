@@ -7,7 +7,7 @@ For details about how to join the OpenTestnet network, please see the [guide](ht
 
 ## Chain ID
 
-`opentestnet-1`
+`opentestnet-1`: [genesis.json](opentestnet-1/genesis.json)
 
 
 ## Persistent Peers
