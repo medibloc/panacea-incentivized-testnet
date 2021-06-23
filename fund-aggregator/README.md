@@ -1,6 +1,6 @@
 # Fund Aggregator
 
-This Go application reads a genesis JSON file and aggregate total funds of each account.
+This Go application reads a genesis JSON file and aggregates total funds of each account.
 
 Funds can exist as the following formats:
 - Available
