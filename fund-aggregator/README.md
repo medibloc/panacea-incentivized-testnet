@@ -3,8 +3,8 @@
 This Go application reads a genesis JSON file and aggregates total funds of each account.
 
 Funds can exist as the following formats:
-- Available
-- Delegated
+- Available (in the account state)
+- Delegated (including self-delegation)
 - Unbonding
 - ~~Rewards~~
 
