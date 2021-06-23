@@ -8,7 +8,7 @@ Funds can exist as the following formats:
 - Unbonding
 - ~~Rewards~~
 
-Thus, this application aggregates all funds by inspecting the genesis file.
+Thus, this application aggregates all of those funds by inspecting the genesis file.
 
 **NOTE: To reduce complexity of this application, the genesis file must be exported with `--for-zero-height`
 which distributes rewards to proper delegators automatically.
