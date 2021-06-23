@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/csv"
 	"encoding/json"
 	"fmt"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -12,7 +11,6 @@ import (
 	"github.com/medibloc/panacea-core/types/util"
 	tmtypes "github.com/tendermint/tendermint/types"
 	"log"
-	"os"
 )
 
 type Config struct {
@@ -49,11 +47,16 @@ func main() {
 	}
 
 	totalCoins := aggregate(availableCoins, stakedCoins)
-	if err := printAsCSV(totalCoins); err != nil {
+
+	identifiedAccounts, err := identify(totalCoins, genState)
+	if err != nil {
+		log.Panic(err)
+	}
+
+	if err := printAsCSV(identifiedAccounts); err != nil {
 		log.Panic(err)
 	}
 }
-
 
 func readAndValidateGenState(config *Config) (map[string]json.RawMessage, error) {
 	cdc := app.MakeCodec()
@@ -134,17 +137,3 @@ func addToCoinMap(coinMap map[string]sdk.Dec, address string, amount sdk.Dec) {
 	}
 }
 
-func printAsCSV(coinMap map[string]sdk.Dec) error {
-	w := csv.NewWriter(os.Stdout)
-	for address, amount := range coinMap {
-		if err := w.Write([]string{address, amount.String()}); err != nil {
-			return fmt.Errorf("failed to print coinMap as CSV: %w", err)
-		}
-	}
-	w.Flush()
-
-	if err := w.Error(); err != nil {
-		return fmt.Errorf("failed to print coinMap as CSV: %w", err)
-	}
-	return nil
-}

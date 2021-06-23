@@ -30,7 +30,9 @@ GENESIS_PATH=<json-file-path> ./fund-aggregator
 
 The result is printed to stdout as CSV format:
 ```csv
-panacea1h2k9m0s5qwpnxrwumscn0hs3jmvhxhy2m05yjj,100.0
-panacea1fpvuwt4krlmzaq6tyvtwy0w3h8yhp2cv59da88,20.31
-panacea1w3ze2ulad0jq7zcps7kdwsadhlh9mc275zt83z,777.1
+John,panacea1h2k9m0s5qwpnxrwumscn0hs3jmvhxhy2m05yjj,100.0
+,panacea1fpvuwt4krlmzaq6tyvtwy0w3h8yhp2cv59da88,20.31
+Paul,panacea1w3ze2ulad0jq7zcps7kdwsadhlh9mc275zt83z,777.1
 ```
+
+The account monikers are found from validator monikers.
