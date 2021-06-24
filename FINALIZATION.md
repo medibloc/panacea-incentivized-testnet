@@ -28,8 +28,3 @@ The scripts will print final funds of each account.
 ### Calculate the Mainnet incentive portions
 
 Please see https://medibloc.gitbook.io/panacea-core/resources/incentivized-testnet#mainnet-incentive.
-
-Note that final funds must be subtracted by the initial budget provided by MediBloc (`100,000,000,000 umed`).
-
-
-
