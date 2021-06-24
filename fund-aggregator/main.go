@@ -83,6 +83,9 @@ func getAllAvailableCoins(genState map[string]json.RawMessage) (map[string]sdk.D
 
 	ret := make(map[string]sdk.Dec, 0)
 	for _, account := range genaccounts.GenesisAccounts(data) {
+		if account.ModuleName != "" {  // skip module accounts
+			continue
+		}
 		ret[account.Address.String()] = sdk.NewDecFromInt(account.Coins.AmountOf("umed"))
 	}
 	return ret, nil
