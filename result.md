@@ -15,7 +15,7 @@ If not, please let us know via Slack private messages until 2021-06-25 23:59 KST
 |blxpro / Rustam Staking Service|panacea1lla59mgh0n3pntal6fxj8ph8xwtcqxyjazjaa2|2,100.589558 MED|74,046.638047 MED|
 |hive01|panacea18un7hmwzglfj8suxmz7v040y7656qa5cjdy9e7|2,077.339735 MED|73,227.072311 MED|
 |ATEAM|panacea18dkj6hn7smlfkfcjaetu02vkhktajzhp4seyyt|2,059.083127 MED|72,583.519438 MED|
-|Cosmostation|panacea1fpvuwt4krlmzaq6tyvtwy0w3h8yhp2cv59da88|2,051.174418 MED|72,304.734222 MED|
+|Cosmostation|panacea1rr89tj2jjlmf6xvc4a9plp4fll225ugqv573lm|2,051.174418 MED|72,304.734222 MED|
 |hashtower-med|panacea1kpnzpjrgkd9punam322n60wgu3alvughyyftd0|2,050.830994 MED|72,292.628386 MED|
 |Imperator.co|panacea1y2556eud32xkpl6pnkq23r2wqd5flz26vry8c0|2,044.693843 MED|72,076.291312 MED|
 |Noderunners|panacea1qzdljq35sda42cwmh4e83r8vn6mgae9va9mq8r|2,041.783113 MED|71,973.686893 MED|
