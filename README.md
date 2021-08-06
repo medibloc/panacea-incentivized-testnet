@@ -1,8 +1,7 @@
-# Panacea OpenTestnet
+# Panacea Incentivized Testnet
 
-This repository contains the configuration parameters and `genesis.json` file for the Panacea blockchain.
-
-For details about how to join the OpenTestnet network, please see the [guide](https://medibloc.gitbook.io/panacea-core/guide/join-the-network).
+**The Incentivized Testnet has been finalized.
+For its history, please see the [INTRO](INTRO.md) and the [FINALIZATION](FINALIZATION.md).**
 
 
 ## Chain ID
